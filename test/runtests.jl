@@ -1,6 +1,7 @@
 using AutoDiff
 using Base.Test
 
+<<<<<<< HEAD
 
 let underlier = 1.0, derivative = 2.0, x = Dual( underlier, derivative )
     @test typeof( u( x )) == typeof( underlier )
@@ -109,3 +110,7 @@ let underlier = 1.0, derivative = 2.0, x = Dual( underlier, derivative )
 end
 
 
+=======
+# write your own tests here
+@test 1 == 1
+>>>>>>> 5b7dcf86f5a0a3054a83233fb194c0a97db9c3c5

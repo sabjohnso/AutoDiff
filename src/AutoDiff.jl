@@ -1,5 +1,6 @@
 module AutoDiff
 
+<<<<<<< HEAD
 import Base.+
 import Base.-
 import Base.*
@@ -191,5 +192,8 @@ atan2{Y,Ux,Dx}( y::Y, x::Dual{Ux,Dx} ) =
 
     
 
+=======
+# package code goes here
+>>>>>>> 5b7dcf86f5a0a3054a83233fb194c0a97db9c3c5
 
 end # module
