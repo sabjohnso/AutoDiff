@@ -1,6 +1,6 @@
 module AutoDiff
 
-<<<<<<< HEAD
+
 import Base.+
 import Base.-
 import Base.*
